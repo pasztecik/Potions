@@ -23,7 +23,7 @@ public class Potions extends JavaPlugin {
 	    if (cmd.getName().equalsIgnoreCase("antwoord2")) {
 			p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 120, 0));
 			p.addPotionEffect(new PotionEffect(PotionEffectType.HARM, 120, 0));
-			p.sendMessage(ChatColor.DARK_RED + "Dit is geen goede combi!!!!");
+			p.sendMessage(ChatColor.DARK_RED + "Dit is geen goede combi!!!!!");
 		
 	    }
 				
